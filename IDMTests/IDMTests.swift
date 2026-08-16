@@ -8,10 +8,4 @@
 import Testing
 @testable import IDM
 
-struct IDMTests {
-
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
-    }
-
-}
+// Real coverage lives in DownloadListStoreTests.swift and TaskStoreTests.swift.

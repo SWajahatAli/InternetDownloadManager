@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8C89C757302F98DE00690DF9 /* IDMCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8C89C756302F98DE00690DF9 /* IDMCore */; };
+		8C89C759302F98DE00690DF9 /* IDMEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 8C89C758302F98DE00690DF9 /* IDMEngine */; };
+		8C89C760302F98DE00690DF9 /* IDMCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8C89C762302F98DE00690DF9 /* IDMCore */; };
+		8C89C761302F98DE00690DF9 /* IDMEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 8C89C763302F98DE00690DF9 /* IDMEngine */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8C89C70F302F916000690DF9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -53,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C89C757302F98DE00690DF9 /* IDMCore in Frameworks */,
+				8C89C759302F98DE00690DF9 /* IDMEngine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C89C760302F98DE00690DF9 /* IDMCore in Frameworks */,
+				8C89C761302F98DE00690DF9 /* IDMEngine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +131,8 @@
 			);
 			name = IDM;
 			packageProductDependencies = (
+				8C89C756302F98DE00690DF9 /* IDMCore */,
+				8C89C758302F98DE00690DF9 /* IDMEngine */,
 			);
 			productName = IDM;
 			productReference = 8C89C701302F915E00690DF9 /* IDM.app */;
@@ -143,6 +156,8 @@
 			);
 			name = IDMTests;
 			packageProductDependencies = (
+				8C89C762302F98DE00690DF9 /* IDMCore */,
+				8C89C763302F98DE00690DF9 /* IDMEngine */,
 			);
 			productName = IDMTests;
 			productReference = 8C89C70E302F916000690DF9 /* IDMTests.xctest */;
@@ -204,6 +219,7 @@
 			mainGroup = 8C89C6F8302F915E00690DF9;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
+				8C89C755302F98DE00690DF9 /* XCLocalSwiftPackageReference "../IDMCore" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8C89C702302F915E00690DF9 /* Products */;
@@ -594,6 +610,36 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		8C89C755302F98DE00690DF9 /* XCLocalSwiftPackageReference "../IDMCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../IDMCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8C89C756302F98DE00690DF9 /* IDMCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C89C755302F98DE00690DF9 /* XCLocalSwiftPackageReference "../IDMCore" */;
+			productName = IDMCore;
+		};
+		8C89C758302F98DE00690DF9 /* IDMEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C89C755302F98DE00690DF9 /* XCLocalSwiftPackageReference "../IDMCore" */;
+			productName = IDMEngine;
+		};
+		8C89C762302F98DE00690DF9 /* IDMCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C89C755302F98DE00690DF9 /* XCLocalSwiftPackageReference "../IDMCore" */;
+			productName = IDMCore;
+		};
+		8C89C763302F98DE00690DF9 /* IDMEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C89C755302F98DE00690DF9 /* XCLocalSwiftPackageReference "../IDMCore" */;
+			productName = IDMEngine;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8C89C6F9302F915E00690DF9 /* Project object */;
 }
